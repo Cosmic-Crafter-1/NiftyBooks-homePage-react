@@ -16,6 +16,7 @@ body {
 /* Container */
 
 .container {
+  width: 350px;
   max-width: 350px;
   padding: 1em;
 
@@ -66,3 +67,16 @@ nav {
   text-shadow: 5px 5px 50px #FFD700;
 }
 
+
+/* Card Component */
+
+.card img{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+
+  transition: 0.5s ease-in-out;
+  object-fit: cover;
+
+  box-shadow: 12px 10px 10px rgb(243, 213, 162);
+}

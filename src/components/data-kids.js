@@ -1,61 +1,73 @@
 
 export default [
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/1.jpg"
-},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/2.jpg"
-},
+	{
+		title: "Adventure with Elara",
+		img: "../../src/assets/story-covers/11.jpg",
+		availability: "(Available)"
+		
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/3.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/1.jpg",
+		availability: "(Coming Soon)"
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/4.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/2.jpg",
+		availability: "(Coming Soon)"
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/5.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/3.jpg",
+		availability: "(Coming Soon)"
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/6.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/4.jpg",
+		availability: "(Coming Soon)"
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/7.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/5.jpg",
+		availability: "(Coming Soon)"
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/8.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/6.jpg",
+		availability: "(Coming Soon)"
+	},
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/9.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/7.jpg",
+		availability: "(Coming Soon)"
+	},
+
+	{
+		title: "",
+		img: "../../src/assets/story-covers/8.jpg",
+		availability: "(Coming Soon)"
+	},
+
+	{
+		title: "",
+		img: "../../src/assets/story-covers/9.jpg",
+		availability: "(Coming Soon)"
+	},
 
 
-{
-	title: "",
-	img: "../../src/assets/story-covers/10.jpg"
-},
-
-
-{
-	title: "",
-	img: "../../src/assets/story-covers/11.jpg"
-},
+	{
+		title: "",
+		img: "../../src/assets/story-covers/10.jpg",
+		availability: "(Coming Soon)"
+	},
 
 ]

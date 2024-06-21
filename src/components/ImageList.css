@@ -1,0 +1,9 @@
+/* Images List */
+
+.images-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3em;
+  overflow-x: auto;
+  margin-bottom: 2em;
+}

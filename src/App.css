@@ -80,3 +80,13 @@ nav {
 
   box-shadow: 12px 10px 10px rgb(243, 213, 162);
 }
+
+/* Images List */
+
+.images-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3em;
+  overflow-x: auto;
+  margin-bottom: 2em;
+}

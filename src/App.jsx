@@ -1,27 +1,33 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Card from './components/Card'
-import cardDataArray from "./components/data-kids"
+import ImageList from './components/ImageList'
 
 
 function App() {
-
-  // Map and create array with all card data
-  const cards = cardDataArray.map(card => {
-    return <Card
-      img={card.img}
-      title={card.title}
-    />
-  })
-
   return (
     <div className='container'>
+
       <Navbar />
       <Hero />
 
-     {/* Renders all the cards, oof , the efficiency !! */}
-      {cards}
+      {/* For kids */}
+      <ImageList
+        ageGroup="kids"
+        ageRange="For Kids (Age 5-10) :"
+      />
+
+      {/* For teens */}
+      <ImageList
+        ageGroup="teens"
+        ageRange="Coming of AGE (12-17) :"
+      />
+
+      {/* For adults */}
+      <ImageList
+        ageGroup="adults"
+        ageRange="Realistic Fiction (18 & Above) :"
+      />
 
     </div>
   )

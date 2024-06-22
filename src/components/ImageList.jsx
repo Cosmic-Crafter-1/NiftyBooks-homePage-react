@@ -24,6 +24,7 @@ export default function ImageList(props) {
 	// Map and create array with all card data
 	const cards = arrayToBeTraversed.map(card => {
 		return <Card
+			key={card.id}
 			img={card.img}
 			title={card.title}
 		/>
@@ -37,9 +38,9 @@ export default function ImageList(props) {
 				{cards}
 			</div>
 
-			<div class="slider-scrollbar">
-				<div class="scrollbar-track">
-					<div class="scrollbar-thumb"></div>
+			<div className="slider-scrollbar">
+				<div className="scrollbar-track">
+					<div className="scrollbar-thumb"></div>
 				</div>
 			</div>
 		</div>

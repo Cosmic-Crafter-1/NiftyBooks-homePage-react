@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Access your API key as an environment variable (see "Set up your API key" above)
 
-process.env.API_KEY = "AIzaSyAD4uuGB_vt28O7E2hkH6Z9P6bD_NtXmOg"
+process.env.API_KEY = ""
 
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 

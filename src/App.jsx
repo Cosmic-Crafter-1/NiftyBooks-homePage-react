@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Hero from './components/Hero'
 import ImageList from './components/ImageList'
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='container'>
 
-      <Navbar />
+      <Header />
       <Hero />
 
       {/* For kids */}

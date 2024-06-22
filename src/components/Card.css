@@ -28,6 +28,18 @@
 
 /* Card description and hover */
 
+
+.card p {
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: 0;
+}
+
+
+
+/* 
 .card p {
 	position: absolute;
 	bottom: -30%;
@@ -42,4 +54,6 @@
 
 .card:hover p {
 	bottom: 0;
-}
+} */
+
+

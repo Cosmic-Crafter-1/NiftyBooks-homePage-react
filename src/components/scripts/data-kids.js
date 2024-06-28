@@ -40,6 +40,7 @@ export default [
 	  title: "The Golden Feather",
 	  img: "../../src/assets/story-covers/9.jpg",
 	  availability: "(Coming Soon)"
-	}
+	},
+
   ];
   

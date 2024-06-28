@@ -1,0 +1,26 @@
+
+.map {
+	margin-bottom: 3em;
+}
+
+h1 {
+	color: wheat;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+.map img{
+	height: 300px;
+	width: 95%;
+	border-radius: 10px;
+	margin: 0 0;
+	transition: 0.5s ease-in-out;
+}
+
+.map img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
